@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 :root {
     --button-color: #f1c40f;
 }
@@ -5,6 +9,7 @@ body {
     background-color: #EEE;
     font-style: 'Lato', sans-serif;
     top: 0;
+    bottom: 0;
 }
 
 header {
@@ -39,6 +44,16 @@ header {
     flex-direction: row;
     justify-content: space-around;
     width: 500px;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: inherit;
 }
 
 #form-style {
@@ -132,4 +147,32 @@ header {
 }
 ol > li {
     list-style: none;
+}
+
+#footer {
+    display: flex;
+    background-color: #ddd;
+    justify-content: end;
+    margin: 30px 60px 0 60px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+    padding: 10px 0 0px 0;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 265px;
+    list-style: none;
+}
+
+footer > p {
+    display: flex;
+    color: #444;
 }
