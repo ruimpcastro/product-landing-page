@@ -87,7 +87,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-#service-description {
+#features {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,6 +97,7 @@ a:hover {
     color: var(--button-color);
     font-size: 80px;
     padding-right: 45px;
+    min-width: 90px;
 }
 
 .perks {
