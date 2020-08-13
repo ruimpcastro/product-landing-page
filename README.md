@@ -36,3 +36,8 @@ User Story #13: The navbar should always be at the top of the viewport.
 User Story #14: My product landing page should have at least one media query.
 
 User Story #15: My product landing page should utilize CSS flexbox at least once.
+
+
+Finished the project with great success.
+
+Learned a ton about flex positioning and worked hard to get to know how everything was positioned properly.
