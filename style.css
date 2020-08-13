@@ -137,6 +137,12 @@ a:hover {
     min-width: 90px;
 }
 
+@media (max-width: 850px) {
+    .icon {
+        font-size: 60px;
+    }
+
+}
 .perks {
     display: flex;
     align-items: center;
