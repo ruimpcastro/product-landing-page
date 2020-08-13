@@ -194,11 +194,12 @@ a:hover {
     .box-display {
         flex-direction: column;
     }
-    
+
     .box {
-        width: 50%;
-        height: 260px;
+        width: 70%;
+        height: 250px;
         margin: 10px;
+        padding-bottom: 50px;
     }
 
     .box-header {
