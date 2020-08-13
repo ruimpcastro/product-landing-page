@@ -1,3 +1,6 @@
+:root {
+    --button-color: #f1c40f;
+}
 body {
     background-color: #EEE;
     font-style: 'Lato', sans-serif;
@@ -64,5 +67,5 @@ header {
     width: 127px;
     font-size: inherit;
     font-style: inherit;
-    background-color: #f1c40f;
+    background-color: var(--button-color);
 }
