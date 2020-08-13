@@ -72,16 +72,6 @@ header {
 }
 
 .icon {
-    color: darkorange;
+    color: var(--button-color);
+    font-size: 45px;
 }
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    text-rendering: auto;
-}
-
-.fa-3x {
-    font-size: 3em;
-}
-
