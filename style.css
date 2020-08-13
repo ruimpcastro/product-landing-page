@@ -37,3 +37,31 @@ header {
     justify-content: space-around;
     width: 500px;
 }
+
+#form-style {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 30%;
+    padding: 0px 25px 20px 25px;
+}
+
+#email {
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+#submit {
+    border-style: none;
+    height: 40px;
+    width: 127px;
+    font-size: inherit;
+    font-style: inherit;
+}
