@@ -159,6 +159,14 @@ a:hover {
     margin-bottom: 60px;
 }
 
+@media (max-width: 850px) {
+    #iframe {
+        width: 90%;
+        padding: 0 5%;
+        align-content: center;
+    }
+}
+
 .box-display {
     display: flex;
     align-items: center;
@@ -182,6 +190,26 @@ a:hover {
     padding-top: 10px;
 }
 
+@media (max-width: 850px) {
+    .box-display {
+        flex-direction: column;
+    }
+    
+    .box {
+        width: 50%;
+        height: 260px;
+        margin: 10px;
+    }
+
+    .box-header {
+        height: 15%;
+        padding-top: 10px;
+    }
+
+    .box > ol {
+        padding: 10px 40px;
+    }
+}
 .trombone-list{
     list-style: none;
 }
