@@ -62,13 +62,14 @@ header {
     box-sizing: border-box;
 }
 
-#submit {
+.button-style {
     border-style: none;
     height: 40px;
     width: 127px;
     font-size: inherit;
     font-style: inherit;
     background-color: var(--button-color);
+    text-transform: uppercase;
 }
 
 #service-description {
@@ -109,8 +110,26 @@ header {
     text-align: center;
     border-style: solid;
     line-height: 1.6;
-    padding: 1%;
     width: calc(100% / 3);
-    margin: 0 50px;
+    margin: 0 60px;
     height: 300px;
+}
+
+.box-header {
+    background-color: #ddd;
+    text-transform: uppercase;
+    height: 11%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.trombone-list{
+    list-style: none;
+}
+
+.box > ol {
+    padding-right: 40px;
+}
+ol > li {
+    list-style: none;
 }
