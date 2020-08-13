@@ -190,6 +190,17 @@ a:hover {
     padding-top: 10px;
 }
 
+.trombone-list{
+    list-style: none;
+}
+
+.box > ol {
+    padding-right: 40px;
+}
+ol > li {
+    list-style: none;
+}
+
 @media (max-width: 850px) {
     .box-display {
         flex-direction: column;
@@ -211,17 +222,6 @@ a:hover {
         padding: 10px 40px;
     }
 }
-.trombone-list{
-    list-style: none;
-}
-
-.box > ol {
-    padding-right: 40px;
-}
-ol > li {
-    list-style: none;
-}
-
 #footer {
     display: flex;
     background-color: #ddd;
@@ -250,3 +250,19 @@ footer > p {
     color: #444;
 }
 
+@media (max-width: 850px) {
+    footer {
+        
+        flex-direction: column;
+        padding: 30px 0 0 0;
+    }
+    #footer {
+        justify-content: center;
+        padding: 0;
+    }
+
+    footer > ul {
+        padding: 0;
+    }
+
+}
