@@ -71,7 +71,29 @@ header {
     background-color: var(--button-color);
 }
 
+#service-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
 .icon {
     color: var(--button-color);
-    font-size: 45px;
+    font-size: 80px;
+    padding-right: 45px;
+}
+
+.perks {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 70%;
+    text-align: left;
+    justify-content: center;
+}
+
+#iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
