@@ -59,6 +59,7 @@ header {
 #email {
     margin-bottom: 15px;
     width: 300px;
+    box-sizing: border-box;
 }
 
 #submit {
@@ -69,3 +70,18 @@ header {
     font-style: inherit;
     background-color: var(--button-color);
 }
+
+.icon {
+    color: darkorange;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
